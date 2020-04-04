@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh;
     
-    background: url("../images/intro.jpg") center no-repeat;
+    background: url("intro.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -45,8 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 880px;
     margin: 0 auto;
     
-    text-align: center;
-}
+  }
 
 .intro__title {
     color: #fff;
@@ -54,6 +53,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1;
+
+    text-align: center;
 }
 
 .intro__title:after {
@@ -67,6 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro__suptitle {
+	text-align: center;
     margin-bottom: 20px;
     
     font-family: 'Kaushan Script', cursive;
@@ -161,9 +163,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
+    text-align: center;
     
-    transition: background .1s linear,
-        color .1s linear;
+    transition: background .1s linear, color .1s linear;
 }
 
 .btn:hover {
@@ -180,11 +182,16 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;
     left: 0;
     z-index: 1;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .slider__inner {
     display: flex;
     justify-content: space-between;
+
     
 }
 
@@ -199,10 +206,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     color: #fff;
     text-transform: uppercase;
+
+
 }
 
 .slider__item.active {
     opacity: 1;
+
 }
 
 .slider__item.active:before {
@@ -223,12 +233,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 23px;
     font-weight: 700;
 }
-
-
-
-
-
-
 
 
 
